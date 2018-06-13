@@ -7,7 +7,9 @@ import Home from "./components/home";
 import "./style/main.scss";
 
 function main() {
-  ReactDOM.render(<Home />, document.querySelector(".app-wrapper"));
+  ReactDOM.render(
+  <Home />
+  , document.querySelector(".app-wrapper"));
 }
 
 document.addEventListener("DOMContentLoaded", main);

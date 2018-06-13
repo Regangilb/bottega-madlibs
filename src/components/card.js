@@ -5,13 +5,15 @@ import Input from './input';
 class Card extends Component {
   render() {
     return (
+      <div className="card">
+        { Input('Color') }
+        { Input('Plural Noun') }
 
-     <div className="card">
-     { Input('Color') }
-     { Input('Plural Noun') }
-     </div>;
+        </div>
     )
+
   }
+
 }
 
-export default Home;
+export default Card;
