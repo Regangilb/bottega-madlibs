@@ -13,4 +13,9 @@ class Home extends Component {
     );
   }
 }
+
+//placeholder
+//gray and green number labels
+//button space and card height
+//content labels
 export default Home;
