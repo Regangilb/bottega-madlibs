@@ -56,12 +56,12 @@ class Card extends Component {
   render() {  
     const inputData = [
       {title: 'Color', state: this.state.color, name: 'color'},
-      {title: 'Plural Noun', state: this.state.pluralNoun1, name: 'pluralNoun'},
+      {title: 'Plural Noun', state: this.state.pluralNoun, name: 'pluralNoun'},
       {title: 'Adjective', state: this.state.adjectiveOne, name: 'adjectiveOne'},
       {title: 'Celebrity', state: this.state.celebOne, name: 'celebOne'},
 
       {title: 'Adjective', state: this.state.adjectiveTwo, name: 'adjectiveTwo'},
-      {title: 'Noun', state: this.state.pluralNounOne, name: 'nounOne'},
+      {title: 'Noun', state: this.state.nounOne, name: 'nounOne'},
       {title: 'Number', state: this.state.numberOne, name: 'numberOne'},
       {title: 'Number', state: this.state.numberTwo, name: 'numberTwo'},
 
