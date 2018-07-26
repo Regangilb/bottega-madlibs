@@ -55,7 +55,7 @@
         position: absolute;
         height: 110vh;
         width: 100vw;
-        background-color: #00CB79;
+        background-color: #BCD8B7;
     }
     
 
@@ -64,7 +64,7 @@
         font-size: 36px;
         font-weight: 500;
         line-height: 44px;
-        color: white
+        color: #BCD8B7;
     }
 
     p {
@@ -112,14 +112,14 @@
     }
 
     &__generate {
-        background-color: #00CB79;
+        background-color: #BCD8B7;
         transform: translateY(-300px);
         @include button;
     }
 
     &__clear {
         transform: translateY(50%);
-        background-color: #45B0E5;
+        background-color: #6BA292;
         @include button;
 
     }
@@ -205,7 +205,7 @@
         grid-column: number-s/number-e;
 
        
-        color: white;
+        color: #BCD8B7;
         font-size: 20px;
         line-height: 24px;
         padding-top: 1px;
